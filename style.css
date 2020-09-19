@@ -1,0 +1,333 @@
+*{
+  font-family: 'Dosis', sans-serif;
+}
+.collapse-content .fa.fa-heart:hover {
+  color: #f44336 !important;
+}
+.collapse-content .fa.fa-share-alt:hover {
+  color: #0d47a1 !important;
+}
+.flex{
+    display: flex;
+}
+.ami:hover{
+    border: 1px solid red;
+    color: orange;
+}
+.ami{
+   padding-top: .5rem;
+   padding-bottom: .5rem;
+   margin-left: 0rem;
+   border-bottom: black;
+}
+.pack{
+    margin-left: 2rem;
+}
+.am{
+    margin-top: 3rem;
+    margin-left: 14rem;
+}
+.pic{
+  margin-left: 13rem;
+}
+.icoo{
+
+  margin-left: 85rem;
+}
+.last{
+    border-top: 1px solid rgb(146, 132, 132);
+}
+.card{
+  
+  float:left; margin-top:25px; margin-left:100%;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+
+}
+container{
+  background: powderblue; 
+
+}
+*{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 1px;
+  padding: 0 2px;
+}
+
+@media screen and (max-width: 50px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.card5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.a{
+  text-decoration: none;
+  font-size: 2px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.dj{
+  width: 12rem;
+  height: 4rem;
+  border-radius: 50%;
+  border-image-outset: 2rem ;
+  
+}
+#div1 {
+  font-size:48px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  color: white;
+}
+
+.fa-twitter {
+  
+  color: white;
+}
+
+.fa-google {
+  
+  color: white;
+}
+
+.fa-linkedin {
+  
+  color:white;
+}
+
+.fa-youtube {
+ 
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+
+
+
+.ami{
+  border-bottom: 5px solid black;
+  border-bottom-style:solid ;
+  
+  
+}
+font-family: {Arial, Helvetica, sans-serif;
+}
+.background-color: {black;
+}
+
+* {
+box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+padding: 16px;
+background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+background-color: #4CAF50;
+color: white;
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 10%;
+opacity: 0.9;
+}
+
+.registerbtn:hover {
+opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+background-color: #f1f1f1;
+text-align: center;
+}
+
+.bg{
+background: url() no-repeat; width: 100%;height: 100vh;
+
+}
+.form-conatiner{
+
+padding: 50px 60px;
+margin-top: 20vh;
+border-radius: 15px 50px;
+box-shadow: 0 8px 50px 22px rgba(0, 0, 0, 0.2);
+
+}
+.faruk{
+width: 6rem;
+height: 6rem;
+margin-left: 6rem;
+transition-duration: 350ms;
+position: relative;
+scale: 250ms;
+
+opacity: unset;
+
+}
+.card5:hover {
+
+left: 0%;
+}
+.jumbo{
+background-color: gray;
+}
+.lol{
+padding: 2rem;
+
+}
+.img {
+border: 1px solid #ddd; /* Gray border */
+border-radius: 4px;  /* Rounded border */
+padding: 5px; /* Some padding */
+width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.messi{
+  margin-left: 12rem;
+}
+.ronaldo{
+margin-left: 26.5rem;
+
+}
+.lol{
+padding-top: -6rem;
+}
+.our{
+margin-left: 10rem;
+}
+.pic{
+padding-top: ;
+}
+.work{
+padding-top: 5rem;
+margin: 0rem;
+}
+.work5{
+padding-top: 5rem;
+margin: 0rem;
+}
+.rdx{
+padding-top: 2rem;
+}
+.kaka{
+margin-left:1px ;
+}
+.dada{
+  margin-left: -10rem;
+}
+.icon{
+  background-color: green;
+}
